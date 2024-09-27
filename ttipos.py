@@ -1,0 +1,11 @@
+nome = str(input('informe seu nome: '))
+idade = int(input('informe sua idade: '))
+altura = float(input('informe sua altura: '))
+print(f'Ola {nome}, você tem {idade} anos, e {altura} de altura')
+verdade = bool(input('digite [s] para confirma todos os dados, se não, precione apenas [Enter ↵]: '))
+print(f'os dados sao {verdade}')
+
+print(f'{nome} é da {type(nome)}')
+print(f'{idade} é da {type(idade)}')
+print(f'{altura} é da {type(altura)}')
+print(f'{verdade} é da {type(verdade)}')
